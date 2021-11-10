@@ -41,7 +41,7 @@ public class MyBot extends TelegramLongPollingBot {
             List <KeyboardRow> keyboardRowList = new ArrayList<>();
             KeyboardRow row;
 
-            row=new KeyboardRow();
+    /*        row=new KeyboardRow();
             row.add("Programming joke \uD83D\uDE01");
             keyboardRowList.add(row);
 
@@ -51,13 +51,13 @@ public class MyBot extends TelegramLongPollingBot {
 
             row=new KeyboardRow();
             row.add("Quote");
-            keyboardRowList.add(row);
+            keyboardRowList.add(row);  */
 
             row=new KeyboardRow();
             row.add("COVID \uD83E\uDDA0 GLOBAL DATA \uD83D\uDCCA");
             keyboardRowList.add(row);
 
-            row=new KeyboardRow();
+ /*           row=new KeyboardRow();
             row.add("Unlimited Courses");
             keyboardRowList.add(row);
 
@@ -67,7 +67,7 @@ public class MyBot extends TelegramLongPollingBot {
 
             row=new KeyboardRow();
             row.add("About Us");
-            keyboardRowList.add(row);
+            keyboardRowList.add(row);  */
 
             replyKeyboardMarkup.setKeyboard(keyboardRowList);
             sendMessage.setReplyMarkup(replyKeyboardMarkup);
