@@ -24,12 +24,13 @@ public class MyBot extends TelegramLongPollingBot {
     JSONObject jsonObject;
 
     String sendCoronaDataNumbers="";
-    static String welcomemessage =
+    static String welcomemessage = /*
             "Thank you for using ArrayIndexOutOfBound Bot \uD83D\uDE09.\n\n" +
             "This bot will show you Programming quotes,Programming jokes,random\n" +
             "jokes and Covid19 Global data,more features are coming soon \uD83D\uDD25.\n" +
-            "\n\n" /*+
-            "Developer \uD83D\uDC68\u200D\uD83D\uDCBB : https://instagram.com/coding_boy_"*/;
+            "\n\n" +
+            "Developer \uD83D\uDC68\u200D\uD83D\uDCBB : https://instagram.com/coding_boy_";*/
+        "I LOVE RANDI!";
     JSONParser parser =  new JSONParser();
     @Override
     public void onUpdateReceived(Update update) {
